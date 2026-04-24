@@ -45,3 +45,13 @@ python -m uvicorn app.main:app --reload
 * NLP-based skill extraction
 * LLM-powered feedback
 * Frontend dashboard
+
+## Run with Docker
+
+```bash
+docker build -t resume-analyzer .
+docker run -p 8000:8000 resume-analyzer
+```
+
+Then open:
+http://localhost:8000/docs
