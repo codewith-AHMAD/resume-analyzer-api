@@ -1,13 +1,13 @@
-# Resume Analyzer API 🚀
+# Resume Analyzer API 
 
 A FastAPI-based backend system that analyzes resumes and provides structured feedback.
 
 ## Features
 
-* 📊 Resume scoring (skills, experience, projects)
-* 🧠 Smart feedback generation
-* 📄 PDF resume upload support
-* ⚡ FastAPI backend with clean architecture
+*  Resume scoring (skills, experience, projects)
+*  Smart feedback generation
+*  PDF resume upload support
+*  FastAPI backend with clean architecture
 
 ## Tech Stack
 
