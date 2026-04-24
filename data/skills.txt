@@ -1,0 +1,10 @@
+python
+machine learning
+deep learning
+nlp
+fastapi
+docker
+sql
+data analysis
+pytorch
+tensorflow
