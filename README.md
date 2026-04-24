@@ -1,13 +1,47 @@
-# Resume Analyzer API
+# Resume Analyzer API 🚀
 
-A FastAPI-based backend that analyzes resumes and provides:
+A FastAPI-based backend system that analyzes resumes and provides structured feedback.
 
-- Skill extraction
-- Resume scoring
-- Suggestions for improvement
-- PDF upload support
+## Features
 
-## Run locally
+* 📊 Resume scoring (skills, experience, projects)
+* 🧠 Smart feedback generation
+* 📄 PDF resume upload support
+* ⚡ FastAPI backend with clean architecture
+
+## Tech Stack
+
+* FastAPI
+* Python
+* PyPDF2
+* Uvicorn
+
+## Project Structure
+
+```
+app/
+ ├── api/
+ ├── services/
+ ├── schemas/
+ ├── main.py
+data/
+requirements.txt
+```
+
+## Run Locally
 
 ```bash
-uvicorn app.main:app --reload
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload
+```
+
+## API Endpoints
+
+* `/analyze` → Analyze resume text
+* `/analyze-pdf` → Upload and analyze PDF
+
+## Future Improvements
+
+* NLP-based skill extraction
+* LLM-powered feedback
+* Frontend dashboard
